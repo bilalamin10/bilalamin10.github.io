@@ -3,45 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bilal Amin | Portfolio</title>
+    <title>Bilal Amin Babar | Portfolio & CV</title>
+    <!-- Tailwind CSS Script Mirror -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body class="bg-gray-50 flex items-center justify-center min-h-screen p-4">
+<body class="bg-gray-50 text-gray-800 antialiased min-h-screen py-12 px-4 sm:px-6 lg:px-8">
 
-    <div class="max-w-md w-full p-8 bg-white rounded-2xl shadow-sm text-center border border-gray-100">
-        
-        <div class="w-24 h-24 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-5 text-blue-600 text-3xl font-bold border-4 border-white shadow-sm">
-            BA
-        </div>
+    <!-- Main Single Column Wrapper -->
+    <div class="max-w-3xl mx-auto space-y-8">
 
-        <h1 class="text-3xl font-bold text-gray-900 mb-1">Bilal Amin Babar</h1>
-        <p class="text-sm font-semibold uppercase tracking-wider text-blue-600 mb-4">Embedded Systems Engineer</p>
-        
-        <p class="text-gray-600 text-sm leading-relaxed mb-6">
-            Specializing in control systems, automation, and intelligent hardware. Passionate about prototyping battery management systems, deep reinforcement learning applications, and developing high-fidelity aerial vehicle controllers.
-        </p>
+        <!-- SECTION 1: HEADER & BIO CARD -->
+        <header class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm text-center sm:text-left sm:flex sm:items-center sm:gap-6">
+            <!-- Profile Avatar Initials -->
+            <div class="w-24 h-24 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mx-auto sm:mx-0 text-3xl font-bold border-4 border-white shadow-sm shrink-0 mb-4 sm:mb-0">
+                BA
+            </div>
+            <div class="grow space-y-2">
+                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+                    <h1 class="text-3xl font-extrabold text-gray-900 tracking-tight">Bilal Amin</h1>
+                    <!-- Social Links -->
+                    <div class="flex justify-center sm:justify-end gap-4 text-lg">
+                        <a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank" class="text-gray-400 hover:text-blue-600 transition" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/bilalamin10" target="_blank" class="text-gray-400 hover:text-gray-900 transition" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="mailto:your.email@example.com" class="text-gray-400 hover:text-emerald-600 transition" title="Email"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+                <p class="text-sm font-semibold uppercase tracking-wider text-blue-600">Embedded Systems & Control Engineer</p>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Electrical systems engineering graduate student specializing in control, automation, and intelligent hardware. Experienced in battery management system testing, multi-layer PCB layout design, and developing high-fidelity aerial vehicle controllers utilizing simulation and deep reinforcement learning pipelines.
+                </p>
+            </div>
+        </header>
 
-        <div class="flex justify-center gap-6 mb-6 text-xl">
-            <a href="https://www.linkedin.com/in/bilal-amin-babar/" target="_blank" class="text-gray-400 hover:text-blue-600 transition-colors" title="LinkedIn">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a href="https://github.com/bilalamin10" target="_blank" class="text-gray-400 hover:text-gray-900 transition-colors" title="GitHub">
-                <i class="fa-brands fa-github"></i>
-            </a>
-            <a href="https://youtube.com/" target="_blank" class="text-gray-400 hover:text-red-600 transition-colors" title="YouTube">
-                <i class="fa-brands fa-youtube"></i>
-            </a>
-            <a href="mailto:bilalamin10@gmail.com" class="text-gray-400 hover:text-emerald-600 transition-colors" title="Email">
-                <i class="fa-solid fa-envelope"></i>
-            </a>
-        </div>
+        <!-- SECTION 2: CORE TECH STACK & SKILLS -->
+        <section class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm space-y-4">
+            <h2 class="text-xl font-bold text-gray-900 flex items-center gap-2">
+                <i class="fa-solid fa-layer-group text-blue-600"></i> Technical Expertise
+            </h2>
+            <div class="flex flex-wrap gap-2 pt-2">
+                <span class="bg-blue-50 text-blue-700 px-3 py-1 rounded-lg text-xs font-semibold border border-blue-100">Control & Automation</span>
+                <span class="bg-blue-50 text-blue-700 px-3 py-1 rounded-lg text-xs font-semibold border border-blue-100">Embedded Systems Design</span>
+                <span class="bg-blue-50 text-blue-700 px-3 py-1 rounded-lg text-xs font-semibold border border-blue-100">PCB Layout (Altium Designer)</span>
+                <span class="bg-blue-50 text-blue-700 px-3 py-1 rounded-lg text-xs font-semibold border border-blue-100">Battery Management Systems (BMS)</span>
+                <span class="bg-blue-50 text-blue-700 px-3 py-1 rounded-lg text-xs font-semibold border border-blue-100">Reinforcement Learning (PPO)</span>
+                <span class="bg-blue-50 text-blue-700 px-3 py-1 rounded-lg text-xs font-semibold border border-blue-100">Robotics Simulation (IsaacLab / Omniverse)</span>
+                <span class="bg-blue-50 text-blue-700 px-3 py-1 rounded-lg text-xs font-semibold border border-blue-100">C / C++ / Python</span>
+                <span class="bg-blue-50 text-blue-700 px-3 py-1 rounded-lg text-xs font-semibold border border-blue-100">MQTT & Network Protocols</span>
+            </div>
+        </section>
 
-        <hr class="border-gray-100 my-5">
+        <!-- SECTION 3: PROFESSIONAL EXPERIENCE (TIMELINE STYLE) -->
+        <section class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm space-y-6">
+            <h2 class="text-xl font-bold text-gray-900 flex items-center gap-2">
+                <i class="fa-solid fa-briefcase text-blue-600"></i> Professional Experience
+            </h2>
+            
+            <!-- Timeline Container -->
+            <div class="border-l-2 border-gray-100 pl-6 ml-2 space-y-8 relative">
+                
+                <!-- Experience Item 1 -->
+                <div class="relative">
+                    <!-- Dot marker -->
+                    <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-blue-600 border-4 border-white shadow-sm"></div>
+                    <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-1">
+                        <div>
+                            <h3 class="font-bold text-gray-900 text-base">Working Student - R&D Prototyping</h3>
+                            <p class="text-sm font-medium text-gray-600">HOPPECKE Batteries</p>
+                        </div>
+                        <span class="text-xs font-semibold text-gray-500 bg-gray-100 px-2.5 py-1 rounded-md self-start">Sep 2025 - Present</span>
+                    </div>
+                    <ul class="mt-3 text-sm text-gray-600 list-disc list-inside space-y-1.5 leading-relaxed">
+                        <li>Developed and evaluated prototyping modules for modular Battery Management Systems (BMS).</li>
+                        <li>Designed comprehensive commissioning charge tests to validate physical network connectivity and data transmission parameters.</li>
+                        <li>Configured secure MQTT messaging protocols for robust telemetry data streaming and battery cell status monitoring.</li>
+                    </ul>
+                </div>
 
-        <a href="https://github.com/bilalamin10" target="_blank" class="inline-block w-full bg-blue-600 text-white px-6 py-3 rounded-xl font-medium hover:bg-blue-700 transition shadow-sm no-underline text-sm">
-            View My Technical Projects
-        </a>
+                <!-- Experience Item 2 -->
+                <div class="relative">
+                    <!-- Dot marker -->
+                    <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-gray-300 border-4 border-white shadow-sm"></div>
+                    <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-1">
+                        <div>
+                            <h3 class="font-bold text-gray-900 text-base">Embedded Systems Engineer</h3>
+                            <p class="text-sm font-medium text-gray-600">Engineering Service Platforms</p>
+                        </div>
+                        <span class="text-xs font-semibold text-gray-500 bg-gray-100 px-2.5 py-1 rounded-md self-start">3 Years Experience</span>
+                    </div>
+                    <ul class="mt-3 text-sm text-gray-600 list-disc list-inside space-y-1.5 leading-relaxed">
+                        <li>Collaborated on diverse technical operations, testing hardware configurations, and managing firmware validation modules.</li>
+                        <li>Handled system-level troubleshooting for complex microcontroller configurations and multi-sensor integration arrays.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION 4: PROJECTS SHOWCASE -->
+        <section class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm space-y-6">
+            <h2 class="text-xl font-bold text-gray-900 flex items-center gap-2">
+                <i class="fa-solid fa-code-branch text-blue-600"></i> Featured Technical Projects
+            </h2>
+
+            <div class="space-y-4">
+                <!-- Project Card 1 -->
+                <div class="p-5 rounded-xl border border-gray-100 bg-gray-50/50 hover:bg-gray-50 transition flex flex-col sm:flex-row justify-between items-start gap-4">
+                    <div class="space-y-1.5">
+                        <span class="text-[10px] font-bold text-blue-600 uppercase tracking-wide">Master's Thesis Project</span>
+                        <h3 class="font-bold text-gray-900 text-base">Quadrotor Trajectory Generalization via Deep RL</h3>
+                        <p class="text-sm text-gray-600 leading-relaxed">
+                            Implemented high-fidelity quadrotor flight training frameworks inside NVIDIA Omniverse and IsaacLab. Utilized Proximal Policy Optimization (PPO) algorithms from the rsl_rl library to optimize robust trajectory tracking control laws over complex, variable dynamic paths.
+                        </p>
+                    </div>
+                    <a href="https://github.com/bilalamin10" target="_blank" class="shrink-0 text-xs font-semibold bg-white border border-gray-200 text-gray-700 px-3 py-1.5 rounded-lg hover:text-blue-600 hover:border-blue-200 transition shadow-xs no-underline flex items-center gap-1.5">
+                        Code <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                    </a>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="p-5 rounded-xl border border-gray-100 bg-gray-50/50 hover:bg-gray-50 transition flex flex-col sm:flex-row justify-between items-start gap-4">
+                    <div class="space-y-1.5">
+                        <span class="text-[10px] font-bold text-purple-600 uppercase tracking-wide">Hardware Engineering</span>
+                        <h3 class="font-bold text-gray-900 text-base">Central Control Unit (CCU) PCB Design</h3>
+                        <p class="text-sm text-gray-600 leading-relaxed">
+                            Managed end-to-end hardware development cycles utilizing Altium Designer. Engineered multi-layer schematic layout designs optimizing signal path integrity, noise rejection, and component densification constraints for automation modules.
+                        </p>
+                    </div>
+                    <span class="shrink-0 text-xs font-semibold bg-gray-100 text-gray-600 px-3 py-1.5 rounded-lg select-none">
+                        Completed <i class="fa-solid fa-check text-[10px]"></i>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 5: EDUCATION -->
+        <section class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm space-y-4">
+            <h2 class="text-xl font-bold text-gray-900 flex items-center gap-2">
+                <i class="fa-solid fa-graduation-cap text-blue-600"></i> Education
+            </h2>
+            <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-1 pt-2">
+                <div>
+                    <h3 class="font-bold text-gray-900 text-base">M.Sc. in Electrical Systems Engineering</h3>
+                    <p class="text-sm font-medium text-gray-600">Specialization: Control and Automation</p>
+                </div>
+                <span class="text-xs font-semibold text-gray-500 bg-gray-100 px-2.5 py-1 rounded-md self-start">Expected Graduation: Late Summer</span>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="text-center text-xs text-gray-400 pt-4">
+            <p>&copy; 2026 Bilal Amin. Built with Tailwind CSS and hosted on GitHub Pages.</p>
+        </footer>
+
     </div>
 
 </body>
